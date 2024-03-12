@@ -1,3 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rubik+Mono+One&display=swap');
+
 * {
 	box-sizing: border-box;
+}
+
+body {
+	background-color: #EEEDEB;
+	margin: 1px;
+	font-size: 13pt;
+	background-image: url("wave.png");
+	background-repeat: repeat-x;
+	background-size: 10vw;
+	padding-top: 5%;
+}
+
+h1 {
+	font-family: "Rubik Mono One", monospace;
+	font-weight: 400;
+	font-size: 80px;
+	font-style: normal;
+}
+
+h2 {
+	font-family: "Rubik Mono One", monospace;
+	font-weight: 400;
+	font-size: 40px;
+	font-style: normal;
+}
+
+p, a {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+.navWrapper {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.navBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+/*	background-color: yellow;*/
+}
+
+.navLeft {
+	display: flex;
+/*	background-color: orange;*/
+}
+
+.navRight {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 60%;
+/*	background-color: orange;*/
+}
+
+.navLink a:link, .navLink a:visited, .navLink a:hover, .navLink a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.navLink a:hover {
+	color: #436860;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+
+.landing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#landingImage{
+	width: 100%;
+	height: 70vh;
+	object-fit: cover;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+
+.navBoxes {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 1%;
+}
+
+.navBoxes a div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-style: solid;
+	border-radius: 15pt;
+	padding: 10vh 1vw;
+	text-align: center;
+}
+
+
+
+.navBoxes div:hover {
+	background-color: #BFD8AF;
+	box-shadow: 10px 10px 10px #BFD8AF;
+}
+
+
+.navBoxes a:link, .navBoxes a:visited, .navBoxes a:hover, .navBoxes a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.navBoxes a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+.toolboxTop, .libraryTop, .tutorialsTop, .resourcesTop {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+/*	align-items: center;*/
+}
+
+.quickLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.resourcesTop .quickLinks {
+	justify-content: center;
+	gap: 5vw;
+}
+
+.quickLinks div {
+	width: 15vw;
+	border-style: solid;
+	border-radius: 15pt;
+}
+
+.quickLinks a:link, .quickLinks a:visited, .quickLinks a:hover, .quickLinks a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.quickLinks a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.quickLinks div:hover {
+	background-color: #BFD8AF;
+	box-shadow: 10px 10px 10px #BFD8AF;
+}
+
+.tunerBox, .metronomeBox, .stringsBox, .notesBox, .chordsBox, 
+.beatlesBox, .journeyBox, .trainBox, .prepBox, .playChordBox, .fingerBox, 
+.lessonsBox, .equipBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 3vw;
+	margin-right: 3vw;
+/*	width: 50%;*/
+	padding: 1vh 3vw 3vh 3vw;
+	border-style: solid;
+	border-radius: 15pt;
+	border-width: 10pt;
+	border-color: #436850;
+	text-align: center;
+}
+
+.stringsBox img, .notesBox img, .chordsBox img, .lessonsBox img, .equipBox img {
+	width: 50%;
+	object-fit: cover;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+.pdf {
+	width: 50%;
+	height: ;
 }
