@@ -8,7 +8,7 @@ body {
 	background-color: #EEEDEB;
 	margin: 1px;
 	font-size: 13pt;
-	background-image: url("wave.png");
+	background-image: url("assets/wave.png");
 	background-repeat: repeat-x;
 	background-size: 10vw;
 	padding-top: 5%;
